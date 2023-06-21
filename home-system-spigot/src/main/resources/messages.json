@@ -1,0 +1,30 @@
+{
+  "prefix": "&7> ",
+
+  "player_only": "This command can only be used by players.",
+  "invalid_usage": "Invalid usage. Please refer to the tab completion.",
+  "no_permission": "You do not have the required permission to use this command.",
+
+  "home_not_found": "Home &e%s &7not found.",
+  "home_deleted": "Home &e%s &7deleted.",
+
+  "home_already_exists": "Home &e%s &7already exists.",
+  "home_created": "Home &e%s &7created.",
+
+  "teleported": "Teleported to home &e%s&7.",
+
+  "home_limit_reached": "You have reached the home limit of &e%s&7.",
+
+  "world_not_found": "World &e%s &7not found. Please report this to an administrator.",
+  "unexpected_error": "An unexpected error occurred.",
+
+  "delete_all_gui_title": "&2Confirm deleting all homes",
+  "delete_all_confirm": "&aConfirm",
+  "delete_all_cancel": "&cDelete",
+  "delete_all_success": "All your homes have been deleted.",
+
+  "home_gui_title": "&2Homes",
+  "home_gui_delete_all": "&cDelete All Homes",
+
+  "home_gui_click_to_teleport": "&7Click to teleport to this home"
+}

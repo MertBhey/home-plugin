@@ -1,0 +1,33 @@
+name: HomeSystem
+main: me.mertbhey.HomeSystem.spigot.HomePlugin
+version: 1.0
+api-version: 1.19
+author: MertBhey
+
+commands:
+  sethome:
+    description: Creates a home at your location
+    usage: /sethome <name>
+  delhome:
+    description: Deletes the home
+    usage: /delhome <name>
+  home:
+    description: Teleports you to the home
+    usage: /home <name>
+  homes:
+    description: Here a GUI opens, where all homes are listed
+    usage: /homes
+
+permissions:
+  homesystem.sethome:
+    description: Allows player to set a home
+    default: true
+  homesystem.delhome:
+    description: Allows player to delete a home
+    default: true
+  homesystem.home:
+    description: Allows player to teleport to a home
+    default: true
+  homesystem.homes:
+    description: Allows player to open the home GUI
+    default: true
